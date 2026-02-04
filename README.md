@@ -324,7 +324,7 @@ To allow public access to your website, you need a bucket policy.
             "Effect": "Allow",
             "Principal": "*",
             "Action": "s3:GetObject",
-            "Resource": "arn:aws:s3:::YOUR-BUCKET-NAME/*"
+            "Resource": "arn:aws:s3:::my-statis-website-tb-2026/*"
         }
     ]
 }
