@@ -160,48 +160,32 @@ _____________________________________________________________
 
 **Your answer:**
 ```
-_____________________________________________________________
-_____________________________________________________________
-_____________________________________________________________
-_____________________________________________________________
+It is cheaper and AWS maintain all scaling, it can also handle massive traffic.
 ```
 
 ### 2. Why is a bucket policy necessary for public website access?
 
 **Your answer:**
 ```
-_____________________________________________________________
-_____________________________________________________________
-_____________________________________________________________
-```
+To set the permission that the bucket is available for public access
 
 ### 3. What are the limitations of S3 static website hosting?
 
-**Your answer:**
-```
-_____________________________________________________________
-_____________________________________________________________
-_____________________________________________________________
+There is no backend so it has limited capability
 ```
 
 ### 4. When would you NOT use S3 for website hosting?
 
 **Your answer:**
 ```
-_____________________________________________________________
-_____________________________________________________________
-_____________________________________________________________
+If the website needs any server side logic and real time behaviour such as user login sessions, password authentication.
 ```
 
 ### 5. How does S3 static hosting fit into cost optimization strategies?
 
 **Your answer:**
-```
-_____________________________________________________________
-_____________________________________________________________
-_____________________________________________________________
-```
 
+It has no servers to run so it only pays for what you serve and store as opposed to paying for an instance that runs 24/7. It also auto scales without load balancing or autoscaling groups. 
 ---
 
 ## Troubleshooting Log
